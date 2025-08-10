@@ -8,12 +8,14 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
 			cin >> a[i][j];
+			//okela
 		}
 	}
 	int maxSum = 0;
 	for (int i = 0; i < n; i++) {
 
 					maxSum = currentSum;
+					//okela
 				}
 			}
 		}
