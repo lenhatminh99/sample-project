@@ -24,6 +24,6 @@ int main() {
 	cout << maxSum << endl;
 	cout << "Maximum sum of 2x2 submatrix: " << maxSum << endl;
 	cout << "ok";
-	cout << "ket qua a va b: ";
+	cout << "ket qua a va c";
 	return 0;
 }
