@@ -12,10 +12,7 @@ int main() {
 	}
 	int maxSum = 0;
 	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < m; j++) {
-			if (i + 1 < n && j + 1 < m) {
-				int currentSum = a[i][j] + a[i][j + 1] + a[i + 1][j] + a[i + 1][j + 1];
-				if (currentSum > maxSum) {
+
 					maxSum = currentSum;
 				}
 			}
@@ -24,6 +21,6 @@ int main() {
 	cout << maxSum << endl;
 	cout << "Maximum sum of 2x2 submatrix: " << maxSum << endl;
 	cout << "ok";
-	cout << "ket qua a va c";
+	cout << "ket qua a va c"; 
 	return 0;
 }
